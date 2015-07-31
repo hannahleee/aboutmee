@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-$(function(){
+<!--$(function(){
 
     $("ul.dropdown li").hover(function(){
     
@@ -24,7 +24,7 @@ $(function(){
     
     $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
 
-});
+});-->
   <body>
     <section class="page-header">
       <center><h1 class="project-name">Hannah Lee</h1></center>
@@ -44,8 +44,15 @@ $(function(){
 <a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>About Me</h2>
   <p>My name is Hannah Lee, and I was born in Chicago, but currently, I live in Dublin, Ohio. In my free time, I mainly like to sleep or watch endless amounts of TV. I go to Dublin Jerome High School, where I'm involved in a lot of clubs and activities. Last year, I did mock trial, model United Nations, student senate, junior cabinet, principal's advisory council, and the school magazine.</p>
   <h3>
-<a id="jackson-pollock-project" class="anchor" href="#jackson-pollock-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jackson Pollock Project</h3>
-  <img alt="Jackson Pollock">
+<!--<a id="jackson-pollock-project" class="anchor" href="#jackson-pollock-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jackson Pollock Project</h3>
+  <img alt="Jackson Pollock">-->
+  $('<img />').attr({
+  src:'https://lh4.googleusercontent.com/t54F-bYI3YzSw9CohKSIRDWMLGu2NKBZIwWmv2lvgOaJhI5ojpXaFyhhwFUR-eU2_piYhA=w1399-h576',
+  width:'200',
+  height:'100'
+}).appendTo($('<a />').attr({
+  href:'https://lh4.googleusercontent.com/t54F-bYI3YzSw9CohKSIRDWMLGu2NKBZIwWmv2lvgOaJhI5ojpXaFyhhwFUR-eU2_piYhA=w1399-h576'
+}).appendTo($('#someElement')));
   <h4>
 <a id="other-projects-from-girls-who-code" class="anchor" href="#other-projects-from-girls-who-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other Projects from Girls Who Code</h4>
   <center><a href="https://www.khanacademy.org/computer-programming/car/5328782861926400"> Car Animation</a></center>
