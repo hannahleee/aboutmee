@@ -57,3 +57,13 @@ p1 {
     color: #800000;
     padding: 3pt;
 }
+
+.ui-tabs .status1 {
+    background: MediumVioletRed
+}
+.ui-tabs .status2 {
+    background: orange;
+}
+.ui-tabs .status3 {
+    background: red;
+}
